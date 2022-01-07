@@ -101,6 +101,12 @@
   color: #ffffff;
 }
 
+.team-member img {
+  margin-top: 3rem;
+  width: 125px;
+  height: 125px;
+}
+
 .person-info {
   font-family: Source Sans Pro;
   font-style: italic;
