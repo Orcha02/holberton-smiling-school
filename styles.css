@@ -13,6 +13,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: fit-content;
+  background-position: center;
 }
 
 @media screen and (max-width: 767px) {
@@ -24,7 +25,7 @@
 
 @media screen and (max-width: 480px) {
   .my-back-home-image {
-    height: 100vh;
+    height: 100%;
   }
 }
 .header-logo {
@@ -46,7 +47,6 @@
 }
 
 .title {
-  font-size: 120px;
   margin-top: 5rem;
 }
 
