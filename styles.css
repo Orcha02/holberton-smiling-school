@@ -1,0 +1,114 @@
+:root {
+  --purple: #c271ff;
+  --white: #ffffff;
+  --black: #000000;
+  --grey: #696969;
+  --sm: 14px;
+  --md: 16px;
+  --lg: 18px;
+}
+
+.my-back-home-image {
+  background-image: url("images/pic_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+}
+
+@media screen and (max-width: 767px) {
+  .my-back-home-image {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .my-back-home-image {
+    height: 100vh;
+  }
+}
+.header-logo {
+  width: 50%;
+}
+
+.links {
+  font-family: "Source Sans Pro";
+  justify-content: space-around;
+}
+
+.inner {
+  font-family: Source Sans Pro;
+  font-weight: bold;
+  font-size: 120px;
+  line-height: 150px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.title {
+  font-size: 120px;
+  margin-top: 5rem;
+}
+
+.subtitle {
+  justify-content: center;
+}
+
+.smiles {
+  margin-right: 2rem;
+}
+
+.laugh {
+  margin-left: 2rem;
+}
+
+.btn {
+  background-color: var(--purple) !important;
+  display: block;
+  margin-top: -6rem;
+}
+
+.learn {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  color: var(--purple);
+  margin-right: 0.5rem;
+}
+
+.learn-two {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: lighter;
+  text-align: center;
+  color: #ffffff;
+}
+
+.person-name {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 27px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.person-info {
+  font-family: Source Sans Pro;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+
+  color: #ffffff;
+}
