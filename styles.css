@@ -477,3 +477,28 @@ footer > div:last-child {
 .social-media-icons i:not(:first-child) {
   margin-left: 20px;
 }
+
+/* ---------- PRICING PAGE ----------  */
+
+main.pricing-main .hero-section {
+  background-image: url("./images/pic_2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-position: center;
+}
+
+.text-logo {
+  margin-top: 200px;
+  flex-wrap: wrap;
+}
+
+.links li a.active {
+  color: var(--purple-color);
+  border-bottom: 2px solid white;
+  padding-bottom: 4px;
+}
+
+a:hover {
+  text-decoration: none;
+}
