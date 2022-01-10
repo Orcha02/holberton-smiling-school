@@ -425,3 +425,22 @@
 .videos-slides-container .carousel-inner {
   flex-basis: 50% !important;
 }
+
+/* FREE MEMBERSHIP SECTION */
+
+.free-membership-section {
+  background-color: var(--blue-color);
+  padding: var(--section-padding);
+}
+
+.free-membership-section span {
+  color: var(--purple);
+}
+
+.free-membership-section > div > div {
+  margin-bottom: 60px;
+}
+
+.free-membership-section .free-membership-item-description {
+  max-width: 250px;
+}
