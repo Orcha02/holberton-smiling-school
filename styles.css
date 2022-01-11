@@ -503,13 +503,6 @@ a:hover {
   text-decoration: none;
 }
 
-@media screen and (max-width: 767px) {
-  main.pricing-main .hero-section {
-    height: 100vh;
-    width: 100vw;
-  }
-}
-
 /* Pricing Table styling */
 .th-title {
   font-size: 44px;
@@ -546,4 +539,14 @@ table .table-btn {
 table i {
   color: var(--green-color);
   font-size: 28px;
+}
+
+@media (max-width: 480px) {
+  main.pricing-main .hero-section {
+    width: fit-content;
+  }
+
+  thead {
+    display: none;
+  }
 }
