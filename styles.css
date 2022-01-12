@@ -578,3 +578,24 @@ table i {
   margin-bottom: 75px;
   text-align: justify;
 }
+
+/* --------- COURSES PAGE ---------- */
+
+main.courses-main .hero-section {
+  background-image: url("./images/pic_3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: fit-content;
+  background-position: center;
+}
+
+/* HERO Section */
+.pricing-page-title {
+  font-size: 32px !important;
+  font-family: Coiny !important;
+  margin-bottom: 0px;
+}
+
+.purple-text {
+  color: var(--purple-color);
+}
