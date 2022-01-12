@@ -550,3 +550,31 @@ table i {
     display: none;
   }
 }
+
+/* FAQ Section */
+
+.faq-section {
+  padding: var(--section-padding);
+}
+
+.faq-section h1,
+.faq-section h2,
+.faq-section .faq-answer {
+  color: var(--black-color) !important;
+}
+
+.faq-section h1 {
+  font-size: 60px !important;
+  margin-bottom: 75px;
+}
+
+.one-faq h2 {
+  margin-left: -2px !important;
+}
+
+.faq-section .faq-answer {
+  font-weight: 14px;
+  opacity: 50%;
+  margin-bottom: 75px;
+  text-align: justify;
+}
