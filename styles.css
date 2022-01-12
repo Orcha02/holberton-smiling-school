@@ -103,6 +103,18 @@
   --search-border-color: #eacffe;
 }
 
+* {
+  font-family: "Source sans pro", "Spin Cycle", "holberton_school-icon",
+    "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  color: white;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --purple: #c271ff;
   --white: #ffffff;
@@ -597,5 +609,82 @@ main.courses-main .hero-section {
 }
 
 .purple-text {
+  color: var(--purple-color);
+}
+
+/* SEARCH Filters */
+
+.courses-p-body {
+  height: 100vh;
+}
+
+.search-filters {
+  background-color: var(--purple-color);
+}
+
+.search-filters .search-element {
+  border-bottom: 1px solid !important;
+  border-color: var(--search-border-color) !important;
+}
+
+.search-filters label {
+  font-weight: bolder;
+  font-size: 12px !important;
+}
+
+.search-filters input {
+  background-color: var(--pale-purple-color);
+  font-size: 24px;
+  opacity: 75%;
+  color: black !important;
+  padding-left: 40px;
+}
+
+.input-icon {
+  font-size: 22px;
+  font-weight: bold;
+  position: absolute;
+  top: 46px;
+  left: 22px;
+}
+
+.search-filters input:focus {
+  color: black;
+}
+
+.search-filters input:focus ~ .input-icon {
+  /* display: none; */
+  color: var(--black-color);
+}
+
+.search-filters input::placeholder {
+  color: white;
+  font-size: 24px;
+  opacity: 50%;
+}
+
+/* Dropdown search */
+
+.dropdown button {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.dropdown button.search-element:first-child {
+  background-color: var(--pale-purple-color) !important;
+}
+.dropdown button:first-child::after {
+  content: "\e904";
+  color: white;
+  font-size: 22px;
+  float: right;
+  margin-top: 2px;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+
+.dropdown-menu button:hover {
   color: var(--purple-color);
 }
